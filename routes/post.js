@@ -8,7 +8,7 @@ const {
 } = require("../controllers/post");
 
 //Middleware
-const { isLoggedIn } = require("../middleware/isLoggedin");
+const { isLoggedIn } = require("../middleware/isLoggedIn");
 const { isAuthenticated } = require("../middleware/isAuthenticated");
 
 //Post route
